@@ -11,9 +11,9 @@ const INSTALADOR = "RoleRunManager-Setup.exe";
 const ROLES = [
   {
     clave: "libero", nombre: "Líbero", simbolo: "●",
-    resumen: "El rol libre: no tiene restricciones propias de movimientos ni de objetos. Solo hay uno en el equipo.",
-    permitido: "Movimientos de daño físico, movimientos de daño especial y cualquier movimiento de estado.",
-    limites: "No tiene limitaciones propias del rol. Eso sí: si un movimiento se consiguió con un drafteo de otro rol, se avisa igual que cualquier otra incompatibilidad.",
+    resumen: "El comodín: imita el rol que elijas entre Asesino, Mago, Tanque, Prisma y Support, y se juzga exactamente como él. Así puedes llevar un rol repetido.",
+    permitido: "Exactamente lo que permite el rol que imita. Sus drafteos salen del conjunto de ese rol, aprende por nivel los movimientos de ese rol y sus EV son los de ese rol.",
+    limites: "Las mismas que el rol que imita. El rol se elige en RoleRun Manager, en el desplegable de su casilla, y se puede cambiar cuando quieras: desde ese momento se juzga con las reglas del nuevo.",
   },
   {
     clave: "asesino", nombre: "Asesino", simbolo: "▲",
