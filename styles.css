@@ -170,6 +170,16 @@ strong { color: #fff; font-weight: 600; }
 .solucion h3 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); margin-bottom: 12px; }
 .solucion p { color: #ddd3c2; margin: 10px 0 0; }
 .solucion-roles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; justify-items: center; }
+.solucion-simbolo { display: grid; place-items: center; }
+.solucion-simbolo span {
+  width: 150px; height: 150px; display: grid; place-items: center;
+  font: 800 4.6rem "Outfit", sans-serif; color: var(--c);
+  border-radius: 46% 54% 58% 42% / 52% 44% 56% 48%;
+  background: color-mix(in srgb, var(--c) 18%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--c) 60%, transparent);
+  box-shadow: 0 0 40px -6px var(--c);
+  animation: respirar 10s ease-in-out infinite;
+}
 .mini-rol {
   width: 84px; height: 84px; display: grid; place-items: center;
   border-radius: 46% 54% 58% 42% / 52% 44% 56% 48%;
@@ -413,6 +423,7 @@ details p { margin: 0; padding: 0 20px 18px; color: var(--suave); }
   .linea-tiempo::before { display: none; }
   .regla { padding-left: 28px; padding-top: 96px; }
   .solucion-roles { grid-template-columns: repeat(6, 1fr); gap: 6px; }
+  .solucion-simbolo span { width: 96px; height: 96px; font-size: 3rem; }
   .mini-rol { width: 100%; height: auto; aspect-ratio: 1; }
 }
 
