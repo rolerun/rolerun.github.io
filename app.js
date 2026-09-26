@@ -109,7 +109,7 @@ function combate(bajas) {
   } else {
     vidas = Math.max(0, vidas - bajas);
     mensaje.textContent = vidas === 0
-      ? "0 vidas: la Run está perdida. Esos Pokémon se van al Cementerio para siempre."
+      ? "0 vidas: la Run está perdida."
       : `−${bajas} ${bajas === 1 ? "vida" : "vidas"}. Pero superaste el combate: te llevas un drafteo igualmente.`;
     pintarCorazones("baja");
   }

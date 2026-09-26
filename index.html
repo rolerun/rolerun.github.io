@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pokémon RoleRun</title>
-  <meta name="description" content="RoleRun: el Nuzlocke con roles. Menos paradas, menos azar, más tensión. Aprende el formato y descarga RoleRun Manager gratis.">
+  <meta name="description" content="RoleRun: el randomizer balanceado. Menos Pokémon absurdos, más estrategia. Aprende el formato y descarga RoleRun Manager gratis.">
   <meta name="theme-color" content="#0e0c09">
   <meta property="og:title" content="Pokémon RoleRun">
-  <meta property="og:description" content="El Nuzlocke con roles: menos paradas, menos azar, más tensión.">
+  <meta property="og:description" content="El randomizer balanceado: menos Pokémon absurdos, más estrategia.">
   <meta property="og:image" content="assets/logo.png">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2026-09-26">
 </head>
 <body>
   <div class="fondo" aria-hidden="true">
@@ -43,31 +43,36 @@
         <span class="halo"></span>
         <img src="assets/logo.png" alt="" width="220" height="220">
       </div>
-      <p class="antetitulo">Un formato de reto Pokémon</p>
+      <p class="antetitulo">El reto Pokémon más extremo</p>
       <h1>Pokémon <em>RoleRun</em></h1>
-      <p class="lema">El Nuzlocke con roles: <strong>menos paradas, menos azar, más tensión.</strong></p>
+      <p class="lema">El randomizer balanceado: <strong>menos Pokémon absurdos, más estrategia.</strong></p>
       <div class="acciones">
         <a class="boton boton-oro" href="#descarga">Descargar RoleRun Manager</a>
         <a class="boton boton-borde" href="#idea">Aprender el formato</a>
       </div>
-      <p class="nota-portada">Gratis · Windows 10 y 11 · No hace falta instalar nada más</p>
+      <p class="nota-portada">Gratis · Windows 10 y 11</p>
       <a class="bajar" href="#idea" aria-label="Seguir leyendo"><span></span></a>
     </section>
 
     <!-- LA IDEA -->
     <section id="idea" class="seccion">
       <p class="etiqueta">La idea</p>
-      <h2>Dos cosas que fallan en los Nuzlockes clásicos</h2>
+      <h2>Tres cosas que fallan en los Randomlockes clásicos</h2>
       <div class="problemas">
         <article class="tarjeta problema aparece">
           <span class="problema-num">1</span>
+          <h3>Demasiado azar</h3>
+          <p>A veces te toca un Pokémon con ataques tan fuertes que se vuelve imparable, y el reto deja de dar miedo.</p>
+        </article>
+        <article class="tarjeta problema aparece">
+          <span class="problema-num">2</span>
           <h3>Demasiadas paradas</h3>
           <p>Volver al Centro Pokémon una y otra vez para curar. Mucho ir y venir, poco avanzar.</p>
         </article>
         <article class="tarjeta problema aparece">
-          <span class="problema-num">2</span>
-          <h3>Demasiado azar</h3>
-          <p>A veces te toca un Pokémon con ataques tan fuertes que se vuelve imparable, y el reto deja de dar miedo.</p>
+          <span class="problema-num">3</span>
+          <h3>Demasiado stall</h3>
+          <p>¿Cuántas veces han salido MTs como Masa Cósmica o Recuperación que eternizan las partidas y las vuelven aburridas?</p>
         </article>
       </div>
       <div class="solucion aparece">
@@ -87,25 +92,6 @@
         </div>
       </div>
 
-      <h3 class="subtitulo">Lo de siempre sigue igual</h3>
-      <div class="bases">
-        <div class="base aparece"><span class="base-icono">①</span><p><strong>Una captura por ruta.</strong> Como en cualquier Nuzlocke.</p></div>
-        <div class="base aparece"><span class="base-icono">✝</span><p><strong>Debilitado es para siempre.</strong> Se va al Cementerio y no vuelve en toda la Run.</p></div>
-        <div class="base aparece"><span class="base-icono">—</span><p><strong>Sin rol, no combate.</strong> Un Pokémon puede estar en el equipo mientras lo preparas, pero no lucha hasta tener rol.</p></div>
-      </div>
-    </section>
-
-    <!-- EL CICLO -->
-    <section class="seccion seccion-estrecha">
-      <p class="etiqueta">Cómo se juega</p>
-      <h2>El ciclo de una Run</h2>
-      <ol class="ciclo">
-        <li class="aparece"><span>1</span><strong>Captura</strong><small>Construye tu equipo</small></li>
-        <li class="aparece"><span>2</span><strong>Asigna rol</strong><small>Especializa a cada uno</small></li>
-        <li class="aparece"><span>3</span><strong>Combate</strong><small>Sobrevive</small></li>
-        <li class="aparece"><span>4</span><strong>Draftea</strong><small>Gana movimientos</small></li>
-        <li class="aparece"><span>5</span><strong>Reorganiza</strong><small>Adáptate y sigue</small></li>
-      </ol>
     </section>
 
     <!-- ROLES -->
@@ -121,11 +107,30 @@
       </div>
     </section>
 
+    <!-- EL CICLO -->
+    <section class="seccion seccion-estrecha">
+      <p class="etiqueta">Cómo se juega</p>
+      <h2>El ciclo de una Run</h2>
+      <ol class="ciclo">
+        <li class="aparece"><span>1</span><strong>Captura</strong><small>Construye tu equipo</small></li>
+        <li class="aparece"><span>2</span><strong>Asigna rol</strong><small>Especializa a cada uno</small></li>
+        <li class="aparece"><span>3</span><strong>Combate</strong><small>Sobrevive</small></li>
+        <li class="aparece"><span>4</span><strong>Draftea</strong><small>Gana movimientos</small></li>
+        <li class="aparece"><span>5</span><strong>Reorganiza</strong><small>Adáptate y sigue</small></li>
+      </ol>
+      <h3 class="subtitulo">Lo de siempre sigue igual</h3>
+      <div class="bases">
+        <div class="base aparece"><span class="base-icono">①</span><p><strong>Una captura por ruta.</strong> Como en cualquier Nuzlocke.</p></div>
+        <div class="base aparece"><span class="base-icono">✝</span><p><strong>Debilitado es para siempre.</strong> Se va al Cementerio y no vuelve en toda la Run.</p></div>
+        <div class="base aparece"><span class="base-icono">—</span><p><strong>Sin rol, no combate.</strong> Un Pokémon puede estar en el equipo mientras lo preparas, pero no lucha hasta tener rol.</p></div>
+      </div>
+    </section>
+
     <!-- VIDAS -->
     <section id="vidas" class="seccion">
       <p class="etiqueta">Vidas, curaciones y drafteos</p>
       <h2>Empiezas con 10 vidas</h2>
-      <p class="intro">Lo que mueve las vidas no es cualquier combate, sino un <strong>combate de seis Pokémon</strong>: un líder de gimnasio, el Alto Mando o un rival importante.</p>
+      <p class="intro">Puedes perder vidas en <strong>cualquier combate</strong>, pero si superas un <strong>combate de seis Pokémon</strong> sin perder vidas, ganas 1 vida más.</p>
 
       <div class="vidas-juego aparece">
         <div class="corazones" id="corazones" aria-live="polite"></div>
@@ -149,7 +154,7 @@
         <article class="tarjeta regla aparece" style="--c: var(--rojo)">
           <span class="regla-signo">−1</span>
           <h3>Una vida por cada baja</h3>
-          <p>Pierdes Pokémon en ese combate: <strong>restas una vida por cada uno</strong> perdido en él. Hasta −6 si cae el equipo entero.</p>
+          <p>Cada Pokémon que pierdas, <strong>en cualquier combate</strong>, te resta una vida. Hasta −6 si cae el equipo entero.</p>
         </article>
         <article class="tarjeta regla aparece" style="--c: var(--oro)">
           <span class="regla-signo">✦</span>
@@ -159,7 +164,7 @@
         <article class="tarjeta regla aparece" style="--c: var(--support)">
           <span class="regla-signo">✚</span>
           <h3>Una curación por líder</h3>
-          <p>Cada vez que <strong>entras</strong> en combate contra un líder de gimnasio, ganas una curación. Adiós a las idas y venidas al Centro Pokémon.</p>
+          <p>Cada vez que <strong>entras</strong> en combate contra un líder de gimnasio, ganas una curación.</p>
         </article>
       </div>
 
@@ -173,10 +178,10 @@
     <section id="drafteos" class="seccion seccion-estrecha">
       <p class="etiqueta">Drafteos</p>
       <h2>¿Qué es un drafteo?</h2>
-      <p class="intro">Es la recompensa de los combates importantes: enseñar a un Pokémon un movimiento <strong>al azar, pero compatible con su rol</strong>.</p>
+      <p class="intro">Es la recompensa de los combates importantes (de 6 Pokémon): enseñar a un Pokémon un movimiento <strong>al azar, pero compatible con su rol</strong>.</p>
       <ol class="pasos">
         <li class="aparece"><strong>Eliges el rol y el Pokémon.</strong> Solo puede intentarlo un Pokémon que ya tenga rol.</li>
-        <li class="aparece"><strong>Salen cuatro movimientos</strong> del conjunto de ese rol. Si no te convencen, repetir la tirada no cuesta nada.</li>
+        <li class="aparece"><strong>Salen entre tres y cinco movimientos</strong> del conjunto de ese rol, según cuál sea. Si ha salido alguno que ya tienes, puedes generar un movimiento nuevo.</li>
         <li class="aparece"><strong>Te quedas uno:</strong> lo enseñas ahora o lo guardas para más tarde. Cualquiera de las dos cosas gasta el drafteo.</li>
       </ol>
     </section>
@@ -219,15 +224,15 @@
       <p class="intro">Se abre junto a tu emulador, lee la partida en directo y se encarga de las cuentas.</p>
       <div class="manager">
         <figure class="captura aparece">
-          <img src="assets/captura-juegos.webp" alt="Pantalla de RoleRun Manager para elegir juego" width="1280" height="836" loading="lazy">
+          <img src="assets/captura-juegos.webp?v=2026-09-26" alt="Pantalla de RoleRun Manager para elegir juego" width="1264" height="828" loading="lazy">
         </figure>
         <ul class="funciones">
           <li class="aparece"><span>◉</span><div><strong>Lee tu partida en directo</strong>Equipo, PS, cajas del PC y medallas, sin cerrar el juego.</div></li>
           <li class="aparece"><span>♥</span><div><strong>Cuenta vidas y drafteos solo</strong>Al ganar un combate de seis Pokémon, suma lo que toca.</div></li>
           <li class="aparece"><span>▲</span><div><strong>Vigila los roles</strong>Marca en rojo los movimientos que un rol no admite y te ofrece MT compatibles.</div></li>
-          <li class="aparece"><span>✦</span><div><strong>Drafteos en un clic</strong>Tira, repite gratis y enseña el movimiento desde el propio programa.</div></li>
+          <li class="aparece"><span>✦</span><div><strong>Drafteos en un clic</strong>Tira los drafteos y enseña el movimiento desde el propio programa.</div></li>
           <li class="aparece"><span>▭</span><div><strong>Barra flotante</strong>Tu equipo y tus vidas encima del juego, con atajos de teclado y mando.</div></li>
-          <li class="aparece"><span>⚑</span><div><strong>Reportar un fallo</strong>Un botón manda el problema con capturas, directo al creador.</div></li>
+          <li class="aparece"><span>↺</span><div><strong>Recuerda-movimientos</strong>Guarda lo que cada Pokémon ha aprendido por nivel y te deja volver a enseñárselo, si encaja con su rol actual.</div></li>
         </ul>
       </div>
 
@@ -286,10 +291,10 @@
 
   <footer class="pie">
     <img src="assets/logo.png" alt="" width="40" height="40">
-    <p>Pokémon RoleRun es un proyecto de fans, gratuito y sin ánimo de lucro.</p>
+    <p>Pokémon RoleRun es un proyecto de Timper para fans, gratuito y sin ánimo de lucro.</p>
     <p class="pie-legal">Pokémon y sus nombres son marcas de Nintendo, Game Freak y The Pokémon Company. Este proyecto no está afiliado a ellas.</p>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=2026-09-26"></script>
 </body>
 </html>
